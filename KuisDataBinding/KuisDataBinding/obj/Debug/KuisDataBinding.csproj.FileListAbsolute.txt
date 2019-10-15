@@ -1,0 +1,15 @@
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\bin\Debug\KuisDataBinding.exe.config
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\bin\Debug\KuisDataBinding.exe
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\bin\Debug\KuisDataBinding.pdb
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\obj\Debug\KuisDataBinding.csprojAssemblyReference.cache
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\obj\Debug\MainWindow.g.cs
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\obj\Debug\App.g.cs
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\obj\Debug\KuisDataBinding_MarkupCompile.cache
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\obj\Debug\KuisDataBinding_MarkupCompile.lref
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\obj\Debug\MainWindow.baml
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\obj\Debug\KuisDataBinding.g.resources
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\obj\Debug\KuisDataBinding.Properties.Resources.resources
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\obj\Debug\KuisDataBinding.csproj.GenerateResource.cache
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\obj\Debug\KuisDataBinding.csproj.CoreCompileInputs.cache
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\obj\Debug\KuisDataBinding.exe
+G:\Project\C#\Asisten Pak Ainul\Pertemuan 4 WPF\KuisDataBinding\KuisDataBinding\obj\Debug\KuisDataBinding.pdb
