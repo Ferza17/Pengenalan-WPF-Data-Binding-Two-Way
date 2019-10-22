@@ -31,14 +31,86 @@ namespace AplikasiLoginPer4
         private WindowBaru _windowBaru;
 
 
-        public string Username { get; set; } 
-        public string Password { get; set; }
+        private string _username;
+        private string _password;
+        private string _checkUsername;
+        private string _checkPassword;
+
+        public string Username {
+            get {
+                return _username;
+            }
+            set {
+                if (_username != value)
+                {
+                    _username = value;
+                    if (_username == null || _username == "")
+                    {
+                        CheckUsername = "Username anda kosong";
+                    }
+                    else
+                    {
+                        CheckUsername = "";
+                    }
+                    OnPropertyChanged();
+
+                }
+            }
+        }
+
+        public string Password {
+            get {
+                return _password;
+            }
+            set {
+                if (_password != value)
+                {
+                    _password = value;
+                    if (_password == null || _password == "")
+                    {
+                        CheckPassword = "Password anda kosong";
+                    }
+                    else
+                    {
+                        CheckPassword = "";
+                    }
+                    OnPropertyChanged();
+
+                }
+            }
+        }
+
+        public string CheckUsername {
+            get { return _checkUsername; }
+            set {
+                if(_checkUsername != value)
+                {
+                    _checkUsername = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        
+
+        public string CheckPassword {
+            get { return _checkPassword; }
+            set {
+                if (_checkPassword != value)
+                {
+                    _checkPassword = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
         // End Variabel
 
         public MainWindow()
         {
-            DataContext = this;
+            
             InitializeComponent();
+            DataContext = this;
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
             ResizeMode = ResizeMode.NoResize;
 
@@ -73,11 +145,12 @@ namespace AplikasiLoginPer4
             }
             else
             {
-                MessageBox.Show(Username);
+                MessageBox.Show("Username atau Password Salah ! ");
                 txtUsername.Text = "";
                 txtUsername.Focus();
 
             }
         }
+
     }
 }

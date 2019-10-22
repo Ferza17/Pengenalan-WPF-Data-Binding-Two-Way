@@ -5,17 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AplikasiLoginPer4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="459.036" Width="483.735">
+        Title="MainWindow" Height="495.036" Width="483.735">
     <StackPanel Background="#FF90DFAA" Margin="0,0,0,-8">
         <Label x:Name="header" Content="LOGIN" Height="55" FontWeight="Bold" FontSize="36" VerticalContentAlignment="Center" HorizontalAlignment="Center" Foreground="White" />
-        <Canvas Height="351" Background="White" Margin="10,0">
+        <Canvas Height="398" Background="White" Margin="10,0">
             <Image x:Name="loginImage" Height="116" Canvas.Left="177" Canvas.Top="10" Width="116" Source="Asset/Images/user.png"/>
-            <TextBox x:Name="txtUsername" Height="28" Canvas.Left="105" TextWrapping="Wrap" Text="{Binding Path=Username,Mode=Default}" Canvas.Top="166" Width="256" Background="White" SelectionBrush="#FF90DFAA"/>
-            <TextBox x:Name="txtPassword" Height="28"  Canvas.Left="105" TextWrapping="Wrap" Text="{Binding Path=Password,Mode=Default}" Canvas.Top="234" Width="256" SelectionBrush="#FF90DFAA"/>
-            <Button x:Name="btnLogin" Content="Login" Canvas.Left="105" Canvas.Top="278" Width="256" BorderBrush="{x:Null}" Background="#FF90DFAA" Foreground="White" Height="34" FontSize="16" FontWeight="Bold" FontFamily="Segoe UI Semibold" OpacityMask="#FF060000" Click="BtnLogin_Click"/>
+            <TextBox x:Name="txtUsername" Height="28" Canvas.Left="105" TextWrapping="Wrap" Text="{Binding Username , Mode=TwoWay}" Canvas.Top="166" Width="256" Background="White" SelectionBrush="#FF90DFAA" />
+            <TextBox x:Name="txtPassword" Height="28"  Canvas.Left="105" TextWrapping="Wrap" Text="{Binding Password, Mode=TwoWay}" Canvas.Top="243" Width="256" SelectionBrush="#FF90DFAA"/>
+            <Button x:Name="btnLogin" Content="Login" Canvas.Left="105" Canvas.Top="300" Width="256" BorderBrush="{x:Null}" Background="#FF90DFAA" Foreground="White" Height="34" FontSize="16" FontWeight="Bold" FontFamily="Segoe UI Semibold" OpacityMask="#FF060000" Click="BtnLogin_Click"/>
             <Label x:Name="userNameLabel" Content="username" FontSize="12" Canvas.Left="107" Canvas.Top="140" Foreground="#FFBEC6D3" FontWeight="Bold"/>
-            <Label x:Name="passwordLabel" Content="Password" FontSize="12" Canvas.Left="107" Canvas.Top="208" RenderTransformOrigin="1.213,0.5" FontWeight="Bold" Foreground="#FFBEC6D7"/>
-
+            <Label x:Name="passwordLabel" Content="Password" FontSize="12" Canvas.Left="107" Canvas.Top="217" RenderTransformOrigin="1.213,0.5" FontWeight="Bold" Foreground="#FFBEC6D7"/>
+            <Label x:Name="lblUsernameStatus" Content="{Binding Path=CheckUsername,Mode=TwoWay}" FontSize="8" Canvas.Left="107" Canvas.Top="199" Foreground="#FFE64C34" FontWeight="Bold"/>
+            <Label x:Name="lblPasswordStatus" Content="{Binding Path=CheckPassword, Mode=TwoWay}" FontSize="8" Canvas.Left="107" Canvas.Top="276" Foreground="#FFE64C34" FontWeight="Bold"/>
         </Canvas>
     </StackPanel>
 </Window>
